@@ -1,0 +1,18 @@
+body{
+    background-color: #e5e5e5e5;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #ffffff;
+    width: 375px;
+    height: 80px;
+}
+header img{
+   margin-left: 22px;
+   margin-top: 16px;
+}
+ion-icon{
+    width: 50px;
+    height: 65px;
+    margin-left: 200px;
+}
