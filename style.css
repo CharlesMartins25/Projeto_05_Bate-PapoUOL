@@ -1,11 +1,18 @@
 body{
-    background-color: #e5e5e5e5;
+    background: #f3f3f3;
     font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin-bottom: 90px;
 }
 header{
     background-color: #ffffff;
-    width: 375px;
+    width: 100%;
     height: 80px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
 }
 header img{
    margin-left: 22px;
@@ -14,5 +21,64 @@ header img{
 ion-icon{
     width: 50px;
     height: 65px;
-    margin-left: 200px;
+    margin-left: 240px;
+}
+.messages{
+    margin-top: 106px;
+}
+.connection-status{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #DCDCDC;
+    border-radius: 2px;
+    margin-bottom: 6px;
+    
+}
+.public-message{
+    background-color: #ffffff;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-bottom: 6px;
+    align-items: center;
+}
+.private-messages{
+    background-color: pink;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.write-message ion-icon{
+    width: 26px;
+    height: 26px;
+ margin-left: 110px;
+   
+}
+input{
+width: 250px;
+    font-size: 18px;
+    line-height: 22px;
+    border: hidden;
+    font-weight: 400;
+    color: #000000;
+    font-style: italic;
+
+}
+
+.write-message{
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    
 }

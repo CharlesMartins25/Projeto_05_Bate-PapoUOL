@@ -14,11 +14,26 @@
    <img src="./imagens/Icone.svg">
    <ion-icon name="people-sharp"></ion-icon>
 </header>
+<div class="container"> 
+    <ul class="messages"></ul>
+    <div class="write-message">
+        <input class="send-message" name="message" type="text" placeholder="Escreva aqui sua mensagem..."></input>
+        <ion-icon name="paper-plane" onclick="sendMessagesfgr(this)"></ion-icon>
+    </div>
+    
 
 
 
 
-<script  src =" https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js " ></script>
+</div>
+
+
+ 
+
+
+
+<script  src ="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script  src ="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="script.js"></script>    
 </body>
 </html>
